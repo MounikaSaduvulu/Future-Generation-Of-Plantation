@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FGOP - Beauty Health</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <style>
+     .indoor
+     {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+     }   
+    .container
+    {
+            display: inline-flex;
+            background:rgba( 255, 255, 255, 0.25 );
+            box-shadow:0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter:blur( 4px );
+            -webkit-backdrop-filter:blur( 4px );
+            border-radius:10px;
+            border:1px solid rgba( 255, 255, 255, 0.18 );
+            position: relative;
+            width:300px;
+            margin: 10px;
+            overflow: hidden;
+            height: 300px;
+    }
+
+    .image 
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .overlay 
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(247, 244, 244);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+    }
+
+    .container:hover .overlay
+     {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .text 
+    {
+        color: rgb(8, 8, 8);
+        font-size: 18px;
+        position: absolute;
+        padding: 30px;
+        text-align: justify;
+    }
+    </style>
+</head>
+<body>
+    <button onclick="lokesh()"  id="button">&#8657;</button>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <div class="dropdown">
+            <button class="dropbtn">Plants 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="plants.html">Plants</a>
+                <h3>categories</h3>
+                <a href="vegetable.html">Vegetables</a>
+                <a href="flowers.html">Flowers</a>
+                <a href="beauty-health.html">Beauty and Health</a>
+                <a href="indoor-plants.html">Indoor Plants</a>
+                <a href="bonsai-plants.html">Bonsai Trees</a>
+            </div>
+        </div> 
+        <a href="signin.html">Sign in</a>
+        <a href="signup.html">Sign up</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <br>
+    <div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+        <a href="#" class="google"><i class="fa fa-google"></i></a> 
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+    </div>
+    <div class="heading">
+        <h1>Indoor Plants</h1>
+    </div> <br> 
+    <br>
+    <section class="indoor">
+        <div class="container">
+            <img src="beautyplant3.jpeg" class="image">
+            <div class="overlay">
+                <div class="text">
+                    Strobilanthes dyeriana, the Persian shield or royal purple plant, is a species of flowering plant in the acanthus family Acanthaceae, native to Myanmar. <br> <br>Price:<big style="color: green">399/-.</big><br> <br>
+                <center><button onclick="fun(10)">Buy</button></center> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="beautyplant1.jpeg" class="image">
+            <div class="overlay">
+                <div class="text">
+                    Coleus is a genus of annual or perennial herbs or shrubs, sometimes succulent, sometimes with a fleshy or tuberous rootstock, found in the Old World tropics and subtropics. The relationship among the genera Coleus, Solenostemon and Plectranthus has been confused <br>  Price:<big style="color: green">449/-.</big> <br>
+                    <center><button onclick="fun(11)">Buy</button></center> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="indoorplant1.jpg" class="image">
+            <div class="overlay">
+                <div class="text">
+                    Chlorophytum comosum, usually called spider plant but also known as spider ivy, ribbon plant, and hen and chickens is a species of perennial flowering plant. It is native to tropical and southern Africa, but has become naturalized in other parts of the world, including western Australia. <br>Price:<big style="color: green">249/-.</big> <br>
+                <center><button onclick="fun(12)">Buy</button></center> 
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <img src="Aglaonema Red Plant.jpg" class="image">
+            <div class="overlay">
+                <div class="text">
+                    Chlorophytum comosum, usually called spider plant but also known as spider ivy, ribbon plant, and hen and chickens is a species of perennial flowering plant. It is native to tropical and southern Africa, but has become naturalized in other parts of the world, including western Australia. <br>Price:<big style="color: green">299/-.</big> <br>
+                <center><button onclick="fun(40)">Buy</button></center> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="Green Fern Plant - Mini.jpg" class="image">
+            <div class="overlay">
+                <div class="text">
+                    Chlorophytum comosum, usually called spider plant but also known as spider ivy, ribbon plant, and hen and chickens is a species of perennial flowering plant. It is native to tropical and southern Africa, but has become naturalized in other parts of the world, including western Australia. <br>Price:<big style="color: green">249/-.</big> <br>
+                <center><button onclick="fun(41)">Buy</button></center> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="anthurium red flamingo plant.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    Chlorophytum comosum, usually called spider plant but also known as spider ivy, ribbon plant, and hen and chickens is a species of perennial flowering plant. It is native to tropical and southern Africa, but has become naturalized in other parts of the world, including western Australia. <br>Price:<big style="color: green">299/-.</big> <br>
+                <center><button onclick="fun(42)">Buy</button></center> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="Broken Heart Plant.jpg" class="image">
+            <div class="overlay">
+                <div class="text">
+                    Chlorophytum comosum, usually called spider plant but also known as spider ivy, ribbon plant, and hen and chickens is a species of perennial flowering plant. It is native to tropical and southern Africa, but has become naturalized in other parts of the world, including western Australia. <br>Price:<big style="color: green">299/-.</big> <br>
+                <center><button onclick="fun(43)">Buy</button></center> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="carton petra.jpg" class="image">
+            <div class="overlay">
+                <div class="text">
+                    Chlorophytum comosum, usually called spider plant but also known as spider ivy, ribbon plant, and hen and chickens is a species of perennial flowering plant. It is native to tropical and southern Africa, but has become naturalized in other parts of the world, including western Australia. <br>Price:<big style="color: green">299/-.</big> <br>
+                <center><button onclick="fun(44)">Buy</button></center> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="jade mini plant.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    Chlorophytum comosum, usually called spider plant but also known as spider ivy, ribbon plant, and hen and chickens is a species of perennial flowering plant. It is native to tropical and southern Africa, but has become naturalized in other parts of the world, including western Australia. <br>Price:<big style="color: green">299/-.</big> <br>
+                <center><button onclick="fun(45)">Buy</button></center> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="money plant.jpg" class="image">
+            <div class="overlay">
+                <div class="text">
+                    Chlorophytum comosum, usually called spider plant but also known as spider ivy, ribbon plant, and hen and chickens is a species of perennial flowering plant. It is native to tropical and southern Africa, but has become naturalized in other parts of the world, including western Australia. <br>Price:<big style="color: green">299/-.</big> <br>
+                    <center><button onclick="fun(46)">Buy</button></center> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="zz plant small.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    Chlorophytum comosum, usually called spider plant but also known as spider ivy, ribbon plant, and hen and chickens is a species of perennial flowering plant. It is native to tropical and southern Africa, but has become naturalized in other parts of the world, including western Australia. <br>Price:<big style="color: green">299/-.</big> <br>
+                    <center><button onclick="fun(47)">Buy</button></center> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="lucky bamboo plant.png" class="image">
+            <div class="overlay">
+                <div class="text">
+                    Chlorophytum comosum, usually called spider plant but also known as spider ivy, ribbon plant, and hen and chickens is a species of perennial flowering plant. It is native to tropical and southern Africa, but has become naturalized in other parts of the world, including western Australia. <br>Price:<big style="color: green">299/-.</big> <br>
+                    <center><button onclick="fun(48)">Buy</button></center> 
+                </div>
+            </div>
+        </div>
+    </section>
+      <br>
+      <br>
+      <div class="footer">
+        <h1>FGOP <hr width="150px" color="black"></h1>
+        <a href="index.html">Home</a>&nbsp;<a href="plants.html">Plants</a>&nbsp;<a href="about.html">About</a>
+        <a href="signin.html">Sign IN</a>&nbsp;<a href="signup.html">Sign up</a>&nbsp;<a href="#">Other Links</a>
+        <a href="#">Mail Us</a>&nbsp;<a href="#">feedback</a>&nbsp;<a href="#">Subcribe</a><br><br>
+        all © copyrights are reserved 
+      </div>
+</body>
+<script src="script.js"></script>
+<script src="script1.js"></script>
+</html>

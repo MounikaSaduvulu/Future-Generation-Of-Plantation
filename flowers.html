@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FGOP - Flowers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        .veg
+        {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .veganim
+        {
+            position: relative;
+            display: inline-flex;
+            overflow: hidden;
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            background:rgba( 255, 255, 255, 0.25 );
+            box-shadow:0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter:blur( 4px );
+            -webkit-backdrop-filter:blur( 4px );
+            border-radius:10px;
+            border:1px solid rgba( 255, 255, 255, 0.18 );
+        }
+        .veganim img
+        {
+        width: 100%;
+        }
+        .overlay
+        {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: paleturquoise;
+            overflow: hidden;
+            width: 100%;
+            height: 0%;
+            transition: .5s ease;
+
+        }
+        .veganim:hover .overlay
+        {
+            top: 0;
+            height: 100%;
+            
+        }
+        .text
+        {
+            color: rgb(37, 119, 5);
+            font-size: 18px;
+            position: absolute;
+            top: 10%;
+            left:10%;
+            transform: translate(-10%,10%);
+            -webkit-transform: translate(-10%,10%);
+            -ms-transform: translate(-10%,10%);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="lokesh()"  id="button">&#8657;</button>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <div class="dropdown">
+            <button class="dropbtn">Plants 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="plants.html">Plants</a>
+                <h3>categories</h3>
+                <a href="vegetable.html">Vegetables</a>
+                <a href="flowers.html">Flowers</a>
+                <a href="beauty-health.html">Beauty and Health</a>
+                <a href="indoor-plants.html">Indoor Plants</a>
+                <a href="bonsai-plants.html">Bonsai Trees</a>
+            </div>
+        </div> 
+        <a href="signin.html">Sign in</a>
+        <a href="signup.html">Sign up</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <br>
+    <div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+        <a href="#" class="google"><i class="fa fa-google"></i></a> 
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+    </div>
+    <div class="heading">
+        <h1>Flowers</h1>
+    </div> <br> 
+    
+    <br>
+    <div class="veganim"> 
+        <img src="flowerplant.jpeg" alt="cabbage" class="Images">
+        <div class="overlay">
+            <div class="text">
+                Hibiscus rosa-sinensis is a bushy, evergreen shrub or small tree growing 2.5–5 m (8–16 ft) tall and 1.5–3 m (5–10 ft) wide, with glossy leaves and solitary, brilliant red flowers in summer and autumn. <br> <br>Price:<big style="color: green">99/-.</big> <br> <br>
+                    <center><button onclick="fun(4)">Buy</button></center>
+            </div>
+        </div>
+    </div>
+
+    <div class="veganim"> 
+        <img src="flower1.jpg" alt="cabbage" class="Images">
+        <div class="overlay">
+            <div class="text">
+                Chrysanthemums, sometimes called mums or chrysanths, are flowering plants of the genus Chrysanthemum in the family Asteraceae. Most species originate from East Asia and the center of diversity is in China. <br><br>Price:<big style="color: green">98/-.</big> <br> <br>
+                    <center><button onclick="fun(5)">Buy</button></center>
+            </div>
+        </div>
+    </div>
+
+    <div class="veganim"> 
+        <img src="flower6.jpg" alt="cabbage" class="Images">
+        <div class="overlay">
+            <div class="text">
+                It is a scrambling shrubby vine growing vigorously to 6 m (20 ft) tall. Unlike most roses, it is practically thornless, though it may bear some prickles up to 5 mm long, particularly on stout, strong shoots. <br> <br>Price:<big style="color: green">100/-.</big> <br> <br>
+                    <center><button onclick="fun(6)">Buy</button></center>
+            </div>
+        </div>
+    </div>
+
+    <div class="veganim"> 
+        <img src="jasmin.jpg" alt="cabbage" class="Images">
+        <div class="overlay">
+            <div class="text">
+                It is a scrambling shrubby vine growing vigorously to 6 m (20 ft) tall. Unlike most roses, it is practically thornless, though it may bear some prickles up to 5 mm long, particularly on stout, strong shoots. <br> <br>Price:<big style="color: green">119/-.</big> <br> <br>
+                    <center><button onclick="fun(24)">Buy</button></center>
+            </div>
+        </div>
+    </div>
+
+    <div class="veganim"> 
+        <img src="bougainvilla.jpg" alt="cabbage" class="Images">
+        <div class="overlay">
+            <div class="text">
+                It is a scrambling shrubby vine growing vigorously to 6 m (20 ft) tall. Unlike most roses, it is practically thornless, though it may bear some prickles up to 5 mm long, particularly on stout, strong shoots. <br> <br>Price:<big style="color: green">99/-.</big> <br> <br>
+                    <center><button onclick="fun(25)">Buy</button></center>
+            </div>
+        </div>
+    </div>
+
+    <div class="veganim"> 
+        <img src="peraeovitex bambusetrorum.jpg" alt="cabbage" class="Images">
+        <div class="overlay">
+            <div class="text">
+                It is a scrambling shrubby vine growing vigorously to 6 m (20 ft) tall. Unlike most roses, it is practically thornless, though it may bear some prickles up to 5 mm long, particularly on stout, strong shoots. <br> <br>Price:<big style="color: green">99/-.</big> <br> <br>
+                    <center><button onclick="fun(26)">Buy</button></center>
+            </div>
+        </div>
+    </div>
+
+    <div class="veganim"> 
+        <img src="daisy.jpg" alt="cabbage" class="Images">
+        <div class="overlay">
+            <div class="text">
+                It is a scrambling shrubby vine growing vigorously to 6 m (20 ft) tall. Unlike most roses, it is practically thornless, though it may bear some prickles up to 5 mm long, particularly on stout, strong shoots. <br> <br>Price:<big style="color: green">99/-.</big> <br> <br>
+                    <center><button onclick="fun(27)">Buy</button></center>
+            </div>
+        </div>
+    </div>
+
+    <div class="veganim"> 
+        <img src="annuals.jpg" alt="cabbage" class="Images">
+        <div class="overlay">
+            <div class="text">
+                It is a scrambling shrubby vine growing vigorously to 6 m (20 ft) tall. Unlike most roses, it is practically thornless, though it may bear some prickles up to 5 mm long, particularly on stout, strong shoots. <br> <br>Price:<big style="color: green">499/-.</big> <br> <br>
+                    <center><button onclick="fun(28)">Buy</button></center>
+            </div>
+        </div>
+    </div>
+
+    <div class="veganim"> 
+        <img src="peace lilly spathiphyllum plant.jpg" alt="cabbage" class="Images">
+        <div class="overlay">
+            <div class="text">
+                It is a scrambling shrubby vine growing vigorously to 6 m (20 ft) tall. Unlike most roses, it is practically thornless, though it may bear some prickles up to 5 mm long, particularly on stout, strong shoots. <br> <br>Price:<big style="color: green">299/-.</big> <br> <br>
+                    <center><button onclick="fun(29)">Buy</button></center>
+            </div>
+        </div>
+    </div>
+
+    <div class="veganim"> 
+        <img src="stonecznik w donicze-sadzonka25cm.jpg" alt="cabbage" class="Images">
+        <div class="overlay">
+            <div class="text">
+                It is a scrambling shrubby vine growing vigorously to 6 m (20 ft) tall. Unlike most roses, it is practically thornless, though it may bear some prickles up to 5 mm long, particularly on stout, strong shoots. <br> <br>Price:<big style="color: green">199/-.</big> <br> <br>
+                    <center><button onclick="fun(30)">Buy</button></center>
+            </div>
+        </div>
+    </div>
+
+    <div class="veganim"> 
+        <img src="Red-China-Asters.jpg" alt="cabbage" class="Images">
+        <div class="overlay">
+            <div class="text">
+                It is a scrambling shrubby vine growing vigorously to 6 m (20 ft) tall. Unlike most roses, it is practically thornless, though it may bear some prickles up to 5 mm long, particularly on stout, strong shoots. <br> <br>Price:<big style="color: green">249/-.</big> <br> <br>
+                    <center><button onclick="fun(31)">Buy</button></center>
+            </div>
+        </div>
+    </div>
+
+
+
+      <br>
+      <br>
+
+      <div class="footer">
+        <h1>FGOP <hr width="150px" color="black"></h1>
+        <a href="index.html">Home</a>&nbsp;<a href="plants.html">Plants</a>&nbsp;<a href="about.html">About</a>
+        <a href="signin.html">Sign IN</a>&nbsp;<a href="signup.html">Sign up</a>&nbsp;<a href="#">Other Links</a>
+        <a href="#">Mail Us</a>&nbsp;<a href="#">feedback</a>&nbsp;<a href="#">Subcribe</a><br><br>
+        all © copyrights are reserved 
+      </div>
+</body>
+<script src="script.js"></script>
+<script src="script1.js"></script>
+</html>

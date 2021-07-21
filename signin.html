@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - FGOP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body
+{
+    background-image: url(beautyplant2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container
+{
+    position: relative;
+    height: 80vh;
+    text-align: center;
+    overflow: hidden;
+}
+.login .acc{
+    font-size: 16px;
+    font-weight: 500;
+}
+.container .login
+{
+    background:rgba( 255, 255, 255, 0.25 );
+    box-shadow:0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    text-align: center;
+    backdrop-filter:blur( 4px );
+    -webkit-backdrop-filter:blur( 4px );
+    border-radius:10px;
+    border:1px solid rgba( 255, 255, 255, 0.18 );
+    padding:20px;
+    height: 450px;
+    width: 600px;
+    font-weight: 500;
+    box-shadow:0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    position:absolute ;
+    top: 50%;
+    font-size: x-large;
+    border-radius: 20px;
+    left: 50%;
+    line-height: 35px;
+    transform: translate(-50%,-50%);
+}
+.login input
+{
+        width: 200px;
+    outline: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border:3px solid rgb(196, 190, 190);
+    text-align: center;
+    font-size: 18px;
+    padding: 7px;
+}
+.login input:focus
+{
+    width: 250px;
+    transition-duration: 0.5s;
+    border-color: greenyellow;
+}
+.login button
+{
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 20px;
+    outline: none;
+    border:none;
+    background: rgb(2, 48, 4);
+}
+.login button:hover
+{
+    transform:scale(1.1);
+    background: rgb(76, 141, 12);
+}
+.login .new
+{
+    width: 30px;
+    padding-top: 5px;
+    border-radius: 10px;
+    height: 30px;
+    font-weight: 500;
+    background:rgb(52, 53, 53);
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <div class="dropdown">
+          <button class="dropbtn">Plants 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="plants.html">Plants</a>
+            <h3>categories</h3>
+                <a href="vegetable.html">Vegetables</a>
+                <a href="flowers.html">Flowers</a>
+                <a href="beauty-health.html">Beauty and Health</a>
+                <a href="indoor-plants.html">Indoor Plants</a>
+                <a href="bonsai-plants.html">Bonsai Trees</a>
+          </div>
+        </div> 
+        <a href="signin.html">Sign in</a>
+        <a href="signup.html">Sign up</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <br>
+    <div class="container">
+        <div class="login">
+            <h3>Signing In with FGOP</h3>
+            <label for="username"><i class="fa fa-user-circle-o"></i> Username / Email:</label><br>
+            <input type="text" id="username"><br>
+            <label for="psd"><i class="fa fa-lock"></i> Password:</label><br>
+            <input type="password" id="psd"><br>
+            <button>Login</button><br>
+            <span class="acc"> if you don't have an account, create new <span><a href="signup.html">sign up</a></span></span>
+            <br> Login with &nbsp;:&nbsp;<i class="fa fa-google new"></i>&nbsp;&nbsp;<i class="fa fa-facebook new"></i>
+        </div>
+    </div>
+    <br>
+      <br>
+      <div class="footer">
+        <h1>FGOP <hr width="150px" color="black"></h1>
+        <a href="index.html">Home</a>&nbsp;<a href="plants.html">Plants</a>&nbsp;<a href="about.html">About</a>
+        <a href="signin.html">Sign IN</a>&nbsp;<a href="signup.html">Sign up</a>&nbsp;<a href="#">Other Links</a>
+        <a href="#">Mail Us</a>&nbsp;<a href="#">feedback</a>&nbsp;<a href="#">Subcribe</a><br><br>
+        all © copyrights are reserved 
+      </div>
+
+</body>
+<script src="script.js"></script>
+<script src="script1.js"></script>
+</html>
